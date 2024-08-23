@@ -17,7 +17,8 @@ func TestAdder(t *testing.T) {
 // in the below example, i'm saying that "hey when you provide 1 and 5 as input, the output should be 6"
 // and the ccode should behave like that
 // it's just like a test case in leetcode or any other cp problem, here is the "expected output"
-func ExampleAdd() {
+// the name should be "ExampleXYZ"
+func ExampleCalculate() {
 	sum := Calculate(1, 5)
 	fmt.Println(sum)
 	// Output: 6
